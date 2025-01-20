@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Starts -->
+        <header>
+            <div class="header">
+                <div class="header-logo">
+                    <h3 class="name">
+                        <span>A</span>bdul
+                        <span>M</span>ujeed
+                    </h3>
+                </div>
+                <div class="nav-bar">
+                    <ul id="menuList">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="menu-icon">
+                    <i class='bx bx-menu' onclick="toggleMenu()"></i>
+                  </div>
+            </div>
+        </header>
+        <!-- Header Ends -->
+
+        <!-- Section starts here -->
+        <section class="main-section first-section">
+            <div class="text">
+                <h4>
+                    Hey! I am
+                </h4>
+                <h1>Abdul Mujeed</h1>
+                <p>Building digital solutions with <br>passion, precision, and purpose
+                </p>
+                <button type="button" class="btn">VIEW CV</button>
+            </div>
+            <div class="image">
+                <img src="assets/images/portfolio img.jpeg" alt="">
+            </div>
+        </section>
+        <!-- About section stars -->
+        <section class="about-section">
+
+            <div class="about-heading">
+                <h2>About Me</h2>
+            </div>
+            <div class="crads">
+                <div class="card card-1">
+                    <h6>Communication Skills</h6>
+                    <p>I excel in communication skills, ensuring clear and effective exchanges in every situation.
+                        Whether collaborating with teams, understanding client needs, or presenting ideas, I convey
+                        thoughts confidently and professionally</p>
+                </div>
+                <div class="card card-2">
+                    <h6>Problem-Solving Skills</h6>
+                    <p>As a proactive problem solver, I excel at identifying and resolving issues in websites, ensuring
+                        seamless functionality. My focus is on delivering efficient solutions and enhancing user
+                        experiences.</p>
+                </div>
+                <div class="card card-3">
+                    <h6>Time Management</h6>
+                    <p>I effectively manage my time by prioritizing tasks, setting clear goals, and staying organized.
+                        This allows me to meet deadlines and maintain productivity consistently.</p>
+                </div>
+                <div class="card card-4">
+                    <h6>Adaptability</h6>
+                    <p>I embrace adaptability by quickly adjusting to new challenges and technologies, ensuring I stay
+                        effective in dynamic environments while delivering optimal results.</p>
+                </div>
+            </div>
+            <div class="about-paragraph">
+                <p>I am a dedicated web developer with a passion for crafting dynamic, responsive websites.<br>With
+                    experience in both frontend and backend technologies, I am committed to building user-centric
+                    websites that solve real-world problems and provide seamless user experiences</p>
+            </div>
+        </section>
+        <!-- services section stars -->
+        <section>
+            <!-- Skills Column -->
+             <div class="section-title">
+                <h1>My Skills</h1>
+             </div>
+             <div class="skills-section">
+            <div class="column">
+              <h3>Skills</h3>
+              <div class="skill">
+                <span>HTML</span>
+                <div class="progress-bar"><div style="width: 90%;" data-percent="90"></div></div>
+              </div>
+              <div class="skill">
+                <span>CSS</span>
+                <div class="progress-bar"><div style="width: 85%;" data-percent="85"></div></div>
+              </div>
+              <div class="skill">
+                <span>JavaScript</span>
+                <div class="progress-bar"><div style="width: 75%;" data-percent="75"></div></div>
+              </div>
+              <div class="skill">
+                <span>Bootstrap</span>
+                <div class="progress-bar"><div style="width: 80%;" data-percent="80"></div></div>
+              </div>
+              <div class="skill">
+                <span>PHP</span>
+                <div class="progress-bar"><div style="width: 70%;" data-percent="70"></div></div>
+              </div>
+              <div class="skill">
+                <span>Laravel</span>
+                <div class="progress-bar"><div style="width: 65%;" data-percent="65"></div></div>
+              </div>
+              <div class="skill">
+                <span>MySQL</span>
+                <div class="progress-bar"><div style="width: 75%;" data-percent="75"></div></div>
+              </div>
+            </div>
+            <!-- Job Fields Column -->
+            <div class="column">
+              <h3>Job Fields</h3>
+              <div class="job-field">
+                <span>Frontend Development</span>
+                <div class="circular-progress" style="--percentage: 85;">
+                  <span>85%</span>
+                </div>
+              </div>
+              <div class="job-field">
+                <span>Backend Development</span>
+                <div class="circular-progress" style="--percentage: 75;">
+                  <span>75%</span>
+                </div>
+              </div>
+              <div class="job-field">
+                <span>WordPress Development</span>
+                <div class="circular-progress" style="--percentage: 80;">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+        </div>
+          </section>
+        <!-- contact section starts -->
+        <section class="contact-section">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-widgets">
+                <div class="widget widget-one">
+                    <div class="footer-logo">
+                        <h3 class="name">
+                            <span>A</span>bdul
+                            <span>M</span>ujeed
+                        </h3>
+                    </div>
+                    <p>"Code is like humor. When you have to explain it, its bad." <br>—<span class="writer">Cory
+                            House</span>—</p>
+                </div>
+                <div class="widget widget-two">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p>Email: abdulmujeed5391@gmail.com</p>
+                        <p>Phone: +92325-2953595</p>
+                        <p>Location: Model Town Lahore, Pakistan</p>
+                    </div>
+                </div>
+                <div class="widget widget-three">
+                    <h4>Social Media</h4>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+                        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="policies-widget">
+                <a href="/privacy-policy" target="_blank">Privacy Policy</a>
+                <a href="/terms-of-service" target="_blank">Terms of Service</a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
